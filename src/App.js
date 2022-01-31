@@ -13,7 +13,10 @@ function App() {
       </div>
       <div className="app_content">
         <MainPage/>
+        <div>
         <Services/>
+
+        </div>
        </div>
     </div>
   );

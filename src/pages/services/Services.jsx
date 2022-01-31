@@ -7,8 +7,11 @@ const Services = () => {
       <div className={styles.firstLayer}>
         <div className={styles.secondLayer}>
             <div className={styles.thirdLayer}>
+              <div className={styles.lastlayer}>
               <p className={styles.subtitle}>Услуги нашей компании</p>
               <h1 className={styles.title}>Какие <span style={{color:"#79B15E"}}>услуги</span> мы можем вам предложить?</h1>
+              </div>
+              
             </div>
         </div>
       </div>
