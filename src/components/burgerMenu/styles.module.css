@@ -1,0 +1,29 @@
+.wrapper{
+    height: 50px;
+    margin-top:8%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.line{
+    width: 47px;
+    background: #ffff;
+    height: 1px;
+}
+.line::before{
+    content: "";
+    width: 47px;
+    background: #ffff;
+    height: 1px;
+    margin-top: 12px;
+    position: absolute;
+
+}
+.line::after{
+    content: "";
+    position: absolute;
+    width:47px;
+    background: #ffff;
+    height: 1px;
+    
+    margin-top: -12px;
+}

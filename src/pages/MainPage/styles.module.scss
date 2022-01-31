@@ -1,0 +1,93 @@
+@keyframes borderAnimation {
+      20%{
+   
+        border:none;    
+
+      }
+      50%{
+        border: 1px solid rgba(121,177,94,.2);    
+
+      }
+      80%{
+        border: 1px solid rgba(121,177,94,.4);    
+
+      }
+      100% {
+  
+        border: 1px solid rgba(121,177,94,.8);    
+
+      }
+  
+}
+
+.main_block{
+  
+    padding: 0 0  0 12%;
+}
+.content_block{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 105px;
+
+    color: #FFFFFF;
+}
+.subtext{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 60%;
+    font-size: 24px;
+    line-height: 125.8%;
+    color: #FFFFFF;
+    width: 60%;
+
+}
+
+.animation_title{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 2%;
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125.8%;
+    color: #FFFFFF;
+}
+
+
+.animation_title:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+.animation_block{
+    width: 80%;
+    background: #79B15E;
+    border-radius: 50%;
+    height: 87.62px;
+}
+.layer_2{
+    padding:10%;
+    border-radius: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    animation-name: borderAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.layer_1{
+    padding:5%;
+    border-radius: 50%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    animation-name: borderAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
