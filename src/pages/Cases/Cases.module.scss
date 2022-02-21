@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;
+    margin-top: 15%;
+    flex-direction: column;
+    padding: 5% 0;
+    margin: 0;
+}
+.infoBlock{
+    background: #E1E1E1;
+    height: 222px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.textContent{
+    max-width: 90%;
+    width: 90%;
+    margin:1% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 63px;
+    color: #245751;
+}
+.subtitle{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125.8%;
+
+
+    color: #245751;
+}

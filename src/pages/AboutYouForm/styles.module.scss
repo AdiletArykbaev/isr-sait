@@ -1,0 +1,70 @@
+.wrapper{
+   
+    padding: 10%;
+}
+.title{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 125.8%;
+
+    
+    color: #FFFFFF;
+} 
+input{
+    border: none;
+    background: transparent;
+    font-family: Mont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 1%;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    outline: none;
+}
+.firstLayer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    input{
+      
+    }
+}
+.secondLayer{
+    width: 90%;
+    margin-top: 5%;
+    input{
+        width: 100%;
+    }
+    
+}
+.personalData{
+
+font-family: Mont;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+
+
+color: #FFFDFD;
+}
+a{
+    text-decoration: none;
+    font-family: Mont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFDFD;
+}
+.checkedData{
+    display: flex;
+    margin-top: 4%;
+    position: absolute;
+    right: 20%;
+    
+    input{
+        margin-top: 5%;
+    }
+}

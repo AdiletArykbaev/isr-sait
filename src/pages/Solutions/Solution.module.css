@@ -1,0 +1,14 @@
+.wrapper{
+    margin-top: 5%;
+    padding: 6%;
+}
+.imageBLock{
+    display: flex;
+}
+.title{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #FFf;
+}

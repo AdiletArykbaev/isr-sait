@@ -19,9 +19,7 @@ const Header = () => {
        </a>
        </div>
     
-        <div className={styles.line2}>
-
-        </div>
+       
        <div className={styles.burgerMenu}>
              <h1 className={styles.title}>Меню</h1>
             <BurgerMenu/>

@@ -1,5 +1,11 @@
-.App {
+body{
   background: #245751;
+
+}
+li{
+  list-style-type: none;
+}
+.App {
 }
 .app_wrapper{
   max-width: 90%;

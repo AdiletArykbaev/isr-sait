@@ -1,0 +1,43 @@
+.caseWrapper{
+    width: 100%;
+    height: 453px;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    padding:2%;
+}
+.caseWrapper:hover{
+    .caseWrapper:nth-child(1){
+        background: red;
+    }
+    background: url("../../images/case-1-img.png") no-repeat;
+    background-size: 120%;
+   
+
+}
+
+.subtitle{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    border-bottom: 1px solid #ffff;
+    line-height: 105.8%;
+    padding: 1%;
+    width: 50%;
+    color: #FFFFFF;
+}
+.title{
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 111.8%;
+    color: #FFFFFF;
+}
+.logoBlock{
+    height: 50%;
+}

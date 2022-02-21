@@ -1,7 +1,7 @@
 .wrapper{
     display: flex;
     justify-content: space-between;
-    padding: 2% 0;
+    padding: 1% 0;
     max-width: 100%;
     margin-left: 5%;
 }
@@ -35,7 +35,7 @@ img{
     margin-top: 3.5%;
 }
 .line2{
-    width: 8%;
+    width: 6%;
     height: 1px;
     background-color: #FFFFFF;
     margin-top: 80px;
@@ -49,4 +49,7 @@ img{
     line-height: 29px;
     text-decoration: none;
     color: #FFFFFF;
+}
+.linkWrapper::before{
+    
 }

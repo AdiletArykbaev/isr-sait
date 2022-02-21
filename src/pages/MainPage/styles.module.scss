@@ -19,6 +19,23 @@
       }
   
 }
+@keyframes opacityAnimation {
+    20%{
+        
+        opacity: 0;
+      }
+      50%{
+        opacity: 50;
+      }
+      80%{
+        opacity: 60;
+      }
+      100% {    
+        opacity: 100;
+
+      }
+    
+}
 
 .main_block{
   
@@ -32,8 +49,8 @@
     font-family: Mont;
     font-style: normal;
     font-weight: 600;
-    font-size: 96px;
-    line-height: 105px;
+    font-size: 5rem;
+    line-height: 97px;
 
     color: #FFFFFF;
 }
@@ -41,7 +58,7 @@
     font-family: Mont;
     font-style: normal;
     font-weight: 60%;
-    font-size: 24px;
+    font-size: 1.2rem;
     line-height: 125.8%;
     color: #FFFFFF;
     width: 60%;
@@ -67,10 +84,10 @@
     border-width: 20%;
 }
 .animation_block{
-    width: 80%;
+    width: 100%;
     background: #79B15E;
     border-radius: 50%;
-    height: 87.62px;
+    height: 57.62px;
 }
 .layer_2{
     padding:10%;
@@ -83,7 +100,7 @@
     animation-duration: 2s;
 }
 .layer_1{
-    padding:5%;
+    padding:1%;
     border-radius: 50%;
     width: 10%;
     display: flex;
@@ -91,4 +108,35 @@
     animation-name: borderAnimation;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+}
+.image_block{
+    display: flex;
+}
+.image_block2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 95%;
+}
+.scene1{
+    opacity: 0;
+    animation-name: opacityAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+.scene2{
+    opacity: 0;
+
+    animation-name: opacityAnimation;
+    animation-duration: 4.1s;
+    animation-iteration-count: infinite;
+
+}
+.scene3{
+    opacity: 0;
+
+    animation-name: opacityAnimation;
+    animation-duration: 3.8s;
+    animation-iteration-count: infinite;
+
 }
